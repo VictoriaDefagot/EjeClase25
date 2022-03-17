@@ -1,5 +1,4 @@
 const express = require('express');
-const path = require ('path');
 
 let mainController = 
     {
@@ -7,7 +6,8 @@ let mainController =
             res.render('index')
         },
         adm: (req, res) => {
-            res.render('index')
+            let admIng = req.query.user;
+            res.send('Hola Admin: ' + admIng)
         },
     }
 

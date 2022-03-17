@@ -6,12 +6,10 @@ function userAdm (req, res, next) {
     let admIng = req.query.user;
     
     if(adm.includes(admIng)) {
-        res.send('Hola Admin: ' + admIng)
+        next()
     } else {
         res.send('No tienes los privilegios para ingresar')
     }
-
-    next()
 }
 
 module.exports = userAdm;

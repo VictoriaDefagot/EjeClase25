@@ -8,3 +8,7 @@ El usuario ingresó a la ruta: /
 El usuario ingresó a la ruta: /
 El usuario ingresó a la ruta: /admin?user=Ada
 El usuario ingresó a la ruta: /admin?user=VVV
+El usuario ingresó a la ruta: /admin?user=Ada
+El usuario ingresó a la ruta: /admin?user=Lucas
+El usuario ingresó a la ruta: /admin?user=Lucas
+El usuario ingresó a la ruta: /admin?user=Ada
